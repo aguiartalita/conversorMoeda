@@ -1,0 +1,79 @@
+:root {
+    --crimson-text-font: 'Crimson Text', serif;
+    --azul-claro: #bdd8ff;
+    --azul-ceu: #7d96ec;
+    --azul-escuro: #455a90;
+    --azul-text-font: #182540;
+}
+
+h1 {
+    text-align: center;
+    color: var(--azul-text-font)
+}
+
+.subtitulo {
+    text-align: center;
+    color: var(--azul-text-font);
+    font-size: 1.2em;
+}
+
+body {
+    background: linear-gradient(-160deg, #bdd8ff, #7d96ec, #455a90, #182540);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    background-size: 100%;
+    font-family: var(--crimson-text-font);
+}
+
+.container__moeda {
+    background: var(--azul-ceu);
+    border-radius: 2em;
+    width: 50vw;
+    height: 30vw;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.texto__moeda {
+    font-size: 1.2em;
+    font-weight: bolder;
+    margin-top: 2em;
+}
+
+.resultado__moeda {
+    color: var(--azul-text-font);
+    text-align: center;
+    margin-bottom: 2em;
+    border: 5px solid black;
+    border-radius: 2em;
+    padding-bottom: 2em;
+    margin-left: 4em;
+    margin-right: 4em;
+}
+
+.botao__moeda--valor {
+    border-radius: 3rem;
+    margin-bottom: 2em;
+}
+
+.botao__conversao {
+    border-color: #3498db;
+    color: var(--azul-text-font);
+    box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+    width: 10vw;
+    height: 4vw;
+    border-radius: 2em;
+}
+
+.botao__conversao:hover {
+    box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+}
+footer{
+    text-align: center;
+    font-size: 0.8em;
+    color: white;
+}

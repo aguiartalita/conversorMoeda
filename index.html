@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Conversor de Moeda R$ </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@0;1&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="main.js"></script>
+
+
+</head>
+<header>
+    <h1> Conversor de Moeda 💰</h1>
+    <p class="subtitulo"> Insira o valor e clique em <strong> Converter </strong> para o resultado </p>
+</header>
+
+<body>
+    <div class="container__moeda">
+        <label for="Moeda" class="texto__moeda"> Valor em R$ </label>
+        <input class="botao__moeda--valor" type="number" id="botao__valor" size="2">
+        <p class="resultado__moeda" id="resultado"> Resultado </p>
+        <br>
+        <div class="box__botao">
+            <button class="botao__conversao" onclick="ConverterEuro()"> Converter em Euro Є </button>
+            <button class="botao__conversao" onclick="ConverterDolar()"> Converter em Dólar U$ </button>
+        </div>
+    </div>
+    <footer> Desenvolvido por <a href="https://www.linkedin.com/in/talita-aguiar/">Talita Aguiar - 2021</a></footer>
+</body>
+
+</html>
